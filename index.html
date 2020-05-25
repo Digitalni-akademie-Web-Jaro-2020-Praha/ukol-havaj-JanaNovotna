@@ -5,9 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dovolená na Havaji</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Knewave&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <img
+      src="images/kauiai-hawaii.jpg"
+      alt="Havaj, ostrov Kauiai."
+      class="main__img"
+    />
     <h1>Dovolená na Havaji</h1>
+    <div class="formular">
+      <p>
+        Abychom mohli jet na vysněnou dovolenou na Havaj, na letenky a ubytování
+        potřebujeme mít našetřeno alespoň 100 000,- Kč.
+      </p>
+      <h2>Máme dost našetřeno?</h2>
+      <p>Alena má již našetřeno:</p>
+      <input type="number" name="number1" id="number1" /><br />
+      <p>Karolína má již našetřeno:</p>
+      <input type="number" name="number2" id="number2" /><br />
+      <input type="submit" value="Jak jsme na tom?" id="submit" />
+    </div>
+    <div class="vysledek"></div>
     <script src="index.js"></script>
   </body>
 </html>
