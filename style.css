@@ -40,3 +40,8 @@ h1 {
 .vysledek {
   text-align: center;
 }
+
+.text {
+  padding: 20px;
+  text-align: center;
+}
